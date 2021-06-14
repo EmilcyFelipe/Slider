@@ -12,7 +12,7 @@ body{
 .slider{
     width: 80vw;
     height: 50vh; 
-    background-color: rgb(92, 20, 20);
+    background-color: rgb(107, 102, 102);
     display: flex;
     position: relative;
     
@@ -28,34 +28,35 @@ body{
 }
 .bg:nth-child(1){
     background-image: url("/assets/bg1.jpg");
-    animation: opacity 5s infinite;
+    animation: opacity 20s infinite;
 }
 .bg:nth-child(2){
     background-image: url("/assets/bg2.jpg");
-    animation: opacity 5s 4s infinite;
+    animation: opacity 20s 5s infinite;
 }
 .bg:nth-child(3){
     background-image: url("/assets/bg3.jpg");
-    animation: opacity 5s 9s infinite;
+    animation: opacity 20s 10s infinite;
 }
 .bg:nth-child(4){
     background-image: url("/assets/bg4.jpg");
-    animation: opacity 5s 14s infinite;
+    animation: opacity 20s 15s infinite;
 }
 
 @keyframes opacity {
     0%{
         opacity: 0;
     }
-    10%{
+    12.25%{
         opacity: 1;
     }
-    90%{
+    25.5%{
         opacity: 1;
     }
-    100%{
+    35%{
         opacity: 0;
     }
+
     
 }
 
